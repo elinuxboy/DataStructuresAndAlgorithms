@@ -6,7 +6,7 @@
 
 栈的结构如图1所示：
 栈中存放了 4 个数据元素，进栈的顺序是 A 先进栈，然后 B 进，然后 C 进，最后 D 进栈；当需要调取 A 时，首先 D 出栈，然后 C 出栈，然后 B 出栈，最后 A 才能出栈被调用。
-<div align=center>![](https://i.imgur.com/4i0Va1G.png) <br>图1 栈结构示意图</div>
+<div align=center>![](https://github.com/elinuxboy/DataStructuresAndAlgorithms/blob/master/CLanguageDescription/ArrayListedStack/img/%E6%A0%88%E7%9A%84%E7%BB%93%E6%9E%84.png) <br>图1 栈结构示意图</div>
 栈操作数据元素只有两种动作：
 - 数据元素用栈的数据结构存储起来，称为“**入栈**”，也叫“压栈”。
 - 数据元素由于某种原因需要从栈结构中提取出来，称为“**出栈**”，也叫“弹栈”。
